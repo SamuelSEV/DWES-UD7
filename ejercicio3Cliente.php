@@ -1,7 +1,7 @@
 <?php
 // Vaciamos algunas variables
 $error = "";
-$resultado = "";
+$resultado = [];
 $poblacion = "";
 
 // Iniciamos el cliente SOAP
@@ -38,7 +38,7 @@ if (isset($_POST['enviar'])) {
         print "<p class='error'>$error</p>";
      
         foreach($resultado as $ciudad) {
-            print "<p style='font-size: 12pt;font-weight: bold;color: #0066CC;'>" . $ciudad['nombre'] . $ciudad['poblacion'] . "</p>";
+            print "<p style='font-size: 12pt;font-weight: bold;color: #0066CC;'>" . $ciudad['nombre'] . " " . $ciudad['poblacion'] . "</p>";
         }
     ?>
     </form>
