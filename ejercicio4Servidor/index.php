@@ -1,5 +1,7 @@
 <?php
-    
+    //Incluir variables de configuracion y el unico controlador
+    //require 'controller/libros_controller.php';
+
     //La carpeta donde buscaremos los controladores
     define ('CONTROLLERS_FOLDER', 'controllers/');
 

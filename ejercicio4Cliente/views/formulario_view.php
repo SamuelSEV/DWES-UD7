@@ -13,7 +13,7 @@
         print "<p class='error'>$error</p>";
      
         foreach($resultado as $ciudad) {
-            print "<p style='font-size: 12pt;font-weight: bold;color: #0066CC;'>" . $ciudad['nombre'] . " " . $ciudad['poblacion'] . "</p>";
+            print "<p style='font-size: 12pt;font-weight: bold;color: green;'>" . $ciudad['nombre'] . " " . $ciudad['poblacion'] . "</p>";
         }
     ?>
     </form>
